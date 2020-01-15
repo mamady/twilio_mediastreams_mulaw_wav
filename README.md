@@ -1,5 +1,5 @@
 # Twilio Mediastreams Mulaw to Wav
-hacky conversion of mulaw data (telephony standard) to wav using ffmpeg
+hacky conversion of mulaw data (telephony standard) to wav using ffmpeg. See here https://en.wikipedia.org/wiki/%CE%9C-law_algorithm
 
 The websocket setup is borrowed from here:  https://github.com/TwilioDevEd/mediastreams-consume-websockets-flask. Point your Twilio mediastreams websocket to the machine running this code (ngrok makes this easy).
 
